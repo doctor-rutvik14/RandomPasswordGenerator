@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Password Generator</h1>
+        <input type="text" id="password" placeholder="Create a strong  p@$Sw0Rd!..." readonly="">&nbsp;&nbsp;
+        <button id="btnCopy" onclick="copy()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg></button><br>
+        <button onclick="getRandomArbitrary()" >Generate Password</button><br>
+        <span id="alert" style="display:none">Password Copied Successfully !!</span>
+        <span id="alert1" style="display:none">First Please click on Generate Password to copy it !!</span>
+    </div>
+    <script defer src="main.js"></script>
+</body>
+</html>
